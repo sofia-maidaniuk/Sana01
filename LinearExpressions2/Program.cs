@@ -34,9 +34,9 @@ class Program
         y = 2.4 * Math.Abs((Math.Pow(m,2) + b) / a) + (a - b) * Math.Pow(Math.Sin(a - b), 2) + Math.Pow(10, -2)*(x - b);
 
         Console.WriteLine("\nResults: ");
-        Console.WriteLine("y = " + y);
-        Console.WriteLine("z1 = " + z1);
-        Console.WriteLine("z2 = " + z2);
+        Console.WriteLine($"y = {y}");
+        Console.WriteLine($"z1 = {z1}");
+        Console.WriteLine($"z2 = {z2}");
     }
 }
 

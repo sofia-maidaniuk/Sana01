@@ -33,10 +33,10 @@ class Program
         r = (1.0 / 2 * a + 3.0 / 4 * b - 7.0 / 5) / (3 * c + 1) + 1 / (a - c);
         
         Console.WriteLine("\nResults: ");
-        Console.WriteLine("x = " + x);
-        Console.WriteLine("y = " + y);
-        Console.WriteLine("z = " + z);
-        Console.WriteLine("r = " + r);
+        Console.WriteLine($"x = {x}");
+        Console.WriteLine($"y = {y}");
+        Console.WriteLine($"z = {z}");
+        Console.WriteLine($"r = {r}");
     }
 }
 
